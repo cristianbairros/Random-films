@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="fundo">
+      <div class="adicionarfilmes">
+        <h1 class="titulo">Random Films</h1>
+        <p class="mensegem-escolha">escolha um gênero para sortear um filme</p>
+        <div class="genero-input-radio">
+          <div class="acao-comedia-terror">
+            <span
+              ><input type="radio" name="genero" id="acao" />
+              <label class="label" for="acao">Ação</label></span
+            >
+            <span
+              ><input type="radio" name="genero" id="comedia" />
+              <label class="label" for="comedia">Comédia</label></span
+            >
+            <span
+              ><input type="radio" name="genero" id="terror" />
+              <label class="label" for="terror">Terror</label></span
+            >
+          </div>
+          <div class="drama-ficcao-suspense">
+            <span
+              ><input type="radio" name="genero" id="drama" />
+              <label class="label" for="drama">Drama</label></span
+            >
+            <span
+              ><input type="radio" name="genero" id="ficcao" />
+              <label class="label" for="ficcao">Ficção</label></span
+            >
+            <span
+              ><input type="radio" name="genero" id="suspense" />
+              <label class="label" for="suspense">Suspense</label></span
+            >
+          </div>
+        </div>
+        /><br />
+        <button onclick="generofilme()">Sortear</button>
+      </div>
+      <div class="randonfilms">
+        <img class="imagem" id="foto" src="" alt=""/>
+        <a class="trailer-filme" id="trailer" href="" target="_blank"
+          >Trailer</a>
+      </div>
+    </main>
+    <script src="js/script.js"></script>
+    <script src="js/listas.js"></script>
+  </body>
+</html>

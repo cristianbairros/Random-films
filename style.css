@@ -1,0 +1,141 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+@font-face {
+font-family: 'monster';
+src: url('Melted Monster.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+body{
+background-image: url(imagem-background/background-alternativo.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.fundo{
+width: 100%;
+height: 105vh;
+background-color: rgba(0, 0, 0, 0.82);
+}
+.titulo{
+color: #e50914;
+font-family: 'monster';
+font-weight: bold;
+margin-bottom: 10px;
+font-size: 70px;
+}
+.mensegem-escolha{
+color: antiquewhite;
+margin-bottom: 20px;
+text-transform: capitalize;
+font-size: 25px;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+}
+.fundo .adicionarfilmes .genero-input-radio{
+display: flex;
+flex-direction: row;
+color: aliceblue;
+font-size: 20px;
+align-items: center;
+justify-content: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+.adicionarfilmes .genero-input-radio .label{
+padding-left: 5px;
+letter-spacing: 2px;
+}
+.adicionarfilmes{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-top: 40px;
+}
+.randonfilms{
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+button{
+padding: 10px;
+border-radius: 5px ;
+background-color:#f73841;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bolder;
+color: whitesmoke;
+border: none;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+button:hover{
+background-color:  #ee212c;
+}
+#titulodofilme{
+color: white;
+display: flex;
+margin-top: 30px;
+margin-bottom: 0px;
+font-size:24px;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+text-transform: capitalize;
+}
+.imagem{
+display: inline;
+padding: 10px;
+align-items: center;
+max-width: 220px;
+max-height: 320px;
+}
+.trailer-filme{
+font-weight: 500;
+font-size: 20px;
+color: antiquewhite;
+font-family: Arial, Helvetica, sans-serif;
+letter-spacing: 5px;
+text-decoration: none;
+margin-top: 15px;
+}
+span{
+    padding: 15px;
+}
+.trailer-filme:hover{
+text-decoration: underline;
+}
+@media screen and (max-width:450px) {
+body{
+background-image: url(imagem-background/rambo.jpg);
+background-repeat: no-repeat;
+background-size: auto;
+}
+.titulo{
+font-size: 40px;
+}
+.adicionarfilmes .genero-input-radio .acao-comedia-terror{
+display: flex;  
+flex-direction: column; 
+margin-right: 15px;
+}
+.adicionarfilmes .genero-input-radio .drama-ficcao-suspense{
+display: flex;  
+flex-direction: column; 
+margin-left: 15px; 
+}
+.imagem{
+max-width: 50%;
+max-height: 50%;
+}
+.mensegem-escolha{
+font-size: 16px;
+}
+span{
+padding:5px;
+}
+}
+   
+
+
+
